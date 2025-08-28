@@ -1,0 +1,86 @@
+site_name: Mochina Coffee Bar How-To Guides
+site_description: Step-by-step guides for coffee operations at Machina Labs
+site_author: Machina Labs Coffee Team
+
+# Repository
+repo_name: Mochina
+repo_url: https://github.com/machina-labs/mochina
+
+# Configuration
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: brown
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: brown
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+# Navigation
+nav:
+  - Home: index.md
+  - Coffee Operations:
+    - Bean Grinding: grinding-beans.md
+    - Shot Pulling: pulling-shots.md
+    - Milk Steaming: milk-steaming.md
+  - Troubleshooting:
+    - General Issues: troubleshooting.md
+    - Cleaning Procedures: cleaning.md
+    - Descaling Guide: descaling.md
+  - Equipment Guides:
+    - Prairie Kitchen: prairie-equipment.md
+    - Owensmouth Kitchen: owensmouth-equipment.md
+  - Quick Reference:
+    - Grind Settings: grind-settings.md
+    - Recipe Cards: recipes.md
+    - Emergency Contacts: contacts.md
+
+# Plugins
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+
+# Extra
+extra:
+  social:
+    - icon: fontawesome/solid/coffee
+      link: https://machinalabs.ai
+      name: Machina Labs
+  version:
+    provider: mike
+
+# Copyright
+copyright: Copyright &copy; 2024 Machina Labs - Coffee Operations Documentation

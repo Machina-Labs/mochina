@@ -1,0 +1,205 @@
+# Prairie Kitchen Equipment Inventory
+# Last Updated: 2024-08-28
+# Location: Prairie Kitchen, Machina Labs
+
+location:
+  name: "Prairie Kitchen"
+  address: "Machina Labs Prairie Location"
+  contact: "facilities@machinalabs.ai"
+
+# Primary Coffee Equipment
+coffee_machines:
+  breville_bambino_plus:
+    name: "Breville Bambino Plus"
+    model: "BES500BSS"
+    serial_number: "TBD"  # Update when available
+    purchase_date: "TBD"  # Update when available
+    warranty_expires: "TBD"  # Update when available
+    status: "excellent"  # excellent, good, fair, poor, broken
+    last_maintenance: "TBD"  # YYYY-MM-DD format
+    maintenance_status: "current"  # current, due, overdue, scheduled
+    location_details: "Main counter, left side"
+    notes: "New installation, functioning perfectly"
+    issues: []
+    replacement_cost: 299.95
+    expected_lifespan_years: 5
+
+grinders:
+  baratza_sette_270:
+    name: "Baratza Sette 270"
+    model: "Sette 270"
+    serial_number: "TBD"  # Update when available
+    purchase_date: "TBD"  # Update when available
+    warranty_expires: "TBD"  # Update when available
+    status: "excellent"  # excellent, good, fair, poor, broken
+    last_maintenance: "TBD"  # YYYY-MM-DD format
+    maintenance_status: "current"  # current, due, overdue, scheduled
+    location_details: "Main counter, right side"
+    notes: "Precision grinder with built-in scale"
+    issues: []
+    replacement_cost: 379.00
+    expected_lifespan_years: 4
+    burr_replacement_date: "TBD"
+    grind_settings:
+      current_espresso: 12
+      notes: "Setting 12 works well for current beans"
+
+# Accessories and Tools
+accessories:
+  portafilters:
+    - name: "54mm Stainless Steel Portafilter"
+      quantity: 1
+      status: "excellent"
+      included_with: "Breville Bambino Plus"
+      replacement_cost: 39.95
+      
+  filter_baskets:
+    - name: "Single Wall Basket"
+      quantity: 1
+      status: "excellent"
+      size: "54mm"
+      replacement_cost: 12.95
+    - name: "Double Wall Basket"
+      quantity: 1
+      status: "excellent"
+      size: "54mm"
+      replacement_cost: 12.95
+
+  milk_jugs:
+    - name: "Stainless Steel Milk Jug"
+      quantity: 1
+      capacity: "480ml"
+      status: "excellent"
+      included_with: "Breville Bambino Plus"
+      replacement_cost: 24.95
+
+  tampers:
+    - name: "Standard Tamper"
+      quantity: 1
+      size: "54mm"
+      status: "good"
+      included_with: "Breville Bambino Plus"
+      replacement_cost: 29.95
+      notes: "Consider upgrading to weighted tamper"
+
+  scales:
+    - name: "Built-in Scale (Sette 270)"
+      quantity: 1
+      status: "excellent"
+      accuracy: "0.1g"
+      last_calibration: "TBD"
+      notes: "Integrated with grinder"
+
+  cleaning_tools:
+    - name: "Group Head Brush"
+      quantity: 1
+      status: "good"
+      replacement_cost: 8.95
+    - name: "Microfiber Cloths"
+      quantity: 3
+      status: "good"
+      replacement_cost: 15.00
+    - name: "Cleaning Tablets"
+      quantity: 1
+      status: "adequate"
+      type: "Breville BEC250"
+      replacement_cost: 19.95
+
+# Consumable Supplies
+supplies:
+  water_filters:
+    name: "Breville Water Filters"
+    model: "BES008WHT0NUC1"
+    quantity_on_hand: 2
+    status: "adequate"  # full, adequate, low, critical, out
+    replacement_frequency: "2 months"
+    last_replaced: "TBD"
+    next_replacement: "TBD"
+    cost_per_unit: 12.95
+    supplier: "Breville"
+
+  cleaning_supplies:
+    descaling_solution:
+      name: "Breville Descaling Solution"
+      model: "BES009XL"
+      quantity_on_hand: 1
+      status: "adequate"
+      usage_frequency: "monthly"
+      last_used: "TBD"
+      cost_per_unit: 14.95
+      
+    cleaning_tablets:
+      name: "Breville Cleaning Tablets"
+      model: "BEC250"
+      quantity_on_hand: 8
+      status: "adequate"
+      usage_frequency: "weekly"
+      last_used: "TBD"
+      cost_per_unit: 19.95
+
+  coffee_beans:
+    current_stock:
+      name: "TBD - Current Bean Selection"
+      roast_date: "TBD"
+      quantity_lbs: 0
+      status: "out"
+      supplier: "TBD"
+      notes: "Need to establish coffee supplier"
+
+# Maintenance Schedule
+maintenance_schedule:
+  daily:
+    - "Wipe down machines"
+    - "Empty drip trays"
+    - "Clean portafilter and baskets"
+    - "Purge steam wand"
+    
+  weekly:
+    - "Deep clean removable parts"
+    - "Clean grinder hopper"
+    - "Check supply levels"
+    - "Run cleaning cycle"
+    
+  monthly:
+    - "Descale espresso machine"
+    - "Deep clean grinder"
+    - "Replace water filter"
+    - "Calibrate grinder scale"
+    
+  quarterly:
+    - "Professional service check"
+    - "Inventory audit"
+    - "Update documentation"
+    - "Review replacement needs"
+
+# Budget Planning
+budget_estimates:
+  annual_supplies: 200.00
+  annual_maintenance: 150.00
+  replacement_reserve: 135.00  # Based on equipment lifespan
+  total_annual: 485.00
+
+# Emergency Contacts
+emergency_contacts:
+  breville_support:
+    phone: "1-866-273-8455"
+    hours: "Mon-Fri 8AM-5PM PST"
+    website: "breville.com/support"
+    
+  baratza_support:
+    phone: "1-425-641-1245"
+    hours: "Mon-Fri 8AM-4PM PST"
+    website: "baratza.com/support"
+    
+  local_repair:
+    name: "TBD - Find local coffee equipment repair"
+    phone: "TBD"
+    notes: "Research local options"
+
+# Notes and Observations
+notes:
+  - "New setup - establish baseline performance metrics"
+  - "Need to source quality coffee beans"
+  - "Consider adding backup equipment for high-usage periods"
+  - "Monitor grinder retention and adjust as needed"
+  - "Document optimal settings for different bean types"

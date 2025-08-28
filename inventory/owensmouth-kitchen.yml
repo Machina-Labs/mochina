@@ -1,0 +1,229 @@
+# Owensmouth Kitchen Equipment Inventory
+# Last Updated: 2024-08-28
+# Location: Owensmouth Kitchen, Machina Labs
+
+location:
+  name: "Owensmouth Kitchen"
+  address: "Machina Labs Owensmouth Location"
+  contact: "facilities@machinalabs.ai"
+
+# Primary Coffee Equipment
+coffee_machines:
+  breville_barista_express:
+    name: "Breville Barista Express"
+    model: "BES870XL"
+    serial_number: "TBD"  # Update when available
+    purchase_date: "TBD"  # Update when available
+    warranty_expires: "TBD"  # Update when available
+    status: "excellent"  # excellent, good, fair, poor, broken
+    last_maintenance: "TBD"  # YYYY-MM-DD format
+    maintenance_status: "current"  # current, due, overdue, scheduled
+    location_details: "Main counter, center position"
+    notes: "All-in-one machine with integrated grinder"
+    issues: []
+    replacement_cost: 699.95
+    expected_lifespan_years: 6
+    
+    # Integrated Grinder Details
+    grinder:
+      type: "Conical Burr"
+      burr_material: "Stainless Steel"
+      grind_settings: 18
+      current_espresso_setting: 6
+      last_burr_replacement: "TBD"
+      burr_replacement_interval: "2-3 years"
+      notes: "Built-in grinder, no separate maintenance needed"
+
+# Accessories and Tools
+accessories:
+  portafilters:
+    - name: "54mm Stainless Steel Portafilter"
+      quantity: 1
+      status: "excellent"
+      included_with: "Breville Barista Express"
+      replacement_cost: 39.95
+      
+  filter_baskets:
+    - name: "Single Wall Basket"
+      quantity: 1
+      status: "excellent"
+      size: "54mm"
+      replacement_cost: 12.95
+    - name: "Double Wall Basket"
+      quantity: 1
+      status: "excellent"
+      size: "54mm"
+      replacement_cost: 12.95
+
+  milk_jugs:
+    - name: "Stainless Steel Milk Jug"
+      quantity: 1
+      capacity: "480ml"
+      status: "excellent"
+      included_with: "Breville Barista Express"
+      replacement_cost: 24.95
+
+  tampers:
+    - name: "Integrated Tamper"
+      quantity: 1
+      size: "54mm"
+      status: "excellent"
+      included_with: "Breville Barista Express"
+      location: "Built into machine side"
+      replacement_cost: 29.95
+      notes: "Convenient integrated design"
+
+  scales:
+    - name: "External Coffee Scale"
+      quantity: 0
+      status: "needed"
+      notes: "Consider adding precision scale for dosing consistency"
+      recommended_model: "Acaia Lunar or similar"
+      estimated_cost: 200.00
+
+  cleaning_tools:
+    - name: "Group Head Brush"
+      quantity: 1
+      status: "good"
+      replacement_cost: 8.95
+    - name: "Grinder Cleaning Brush"
+      quantity: 1
+      status: "good"
+      included_with: "Breville Barista Express"
+      replacement_cost: 5.95
+    - name: "Microfiber Cloths"
+      quantity: 3
+      status: "good"
+      replacement_cost: 15.00
+    - name: "Steam Wand Cleaner"
+      quantity: 1
+      status: "adequate"
+      replacement_cost: 12.95
+
+# Consumable Supplies
+supplies:
+  water_filters:
+    name: "Breville Water Filters"
+    model: "BES008WHT0NUC1"
+    quantity_on_hand: 2
+    status: "adequate"  # full, adequate, low, critical, out
+    replacement_frequency: "2 months"
+    last_replaced: "TBD"
+    next_replacement: "TBD"
+    cost_per_unit: 12.95
+    supplier: "Breville"
+
+  cleaning_supplies:
+    descaling_solution:
+      name: "Breville Descaling Solution"
+      model: "BES009XL"
+      quantity_on_hand: 1
+      status: "adequate"
+      usage_frequency: "monthly"
+      last_used: "TBD"
+      cost_per_unit: 14.95
+      
+    cleaning_tablets:
+      name: "Breville Cleaning Tablets"
+      model: "BEC250"
+      quantity_on_hand: 8
+      status: "adequate"
+      usage_frequency: "weekly"
+      last_used: "TBD"
+      cost_per_unit: 19.95
+
+    grinder_cleaner:
+      name: "Grindz Grinder Cleaner"
+      quantity_on_hand: 1
+      status: "adequate"
+      usage_frequency: "monthly"
+      last_used: "TBD"
+      cost_per_unit: 8.95
+      notes: "For integrated grinder maintenance"
+
+  coffee_beans:
+    current_stock:
+      name: "TBD - Current Bean Selection"
+      roast_date: "TBD"
+      quantity_lbs: 0
+      status: "out"
+      supplier: "TBD"
+      notes: "Need to establish coffee supplier"
+
+# Maintenance Schedule
+maintenance_schedule:
+  daily:
+    - "Wipe down machine exterior"
+    - "Empty drip tray and water tank"
+    - "Clean portafilter and baskets"
+    - "Purge and clean steam wand"
+    - "Empty bean hopper if needed"
+    
+  weekly:
+    - "Deep clean removable parts"
+    - "Clean bean hopper thoroughly"
+    - "Run cleaning cycle"
+    - "Check grinder for coffee residue"
+    - "Clean integrated grinder chamber"
+    
+  monthly:
+    - "Descale entire machine"
+    - "Deep clean integrated grinder"
+    - "Replace water filter"
+    - "Run grinder cleaning tablets"
+    - "Check all seals and gaskets"
+    
+  quarterly:
+    - "Professional service check"
+    - "Inventory audit"
+    - "Calibrate grinder settings"
+    - "Review replacement needs"
+    - "Check burr wear"
+
+# Budget Planning
+budget_estimates:
+  annual_supplies: 250.00  # Higher due to integrated grinder
+  annual_maintenance: 200.00
+  replacement_reserve: 115.00  # Based on equipment lifespan
+  total_annual: 565.00
+
+# Emergency Contacts
+emergency_contacts:
+  breville_support:
+    phone: "1-866-273-8455"
+    hours: "Mon-Fri 8AM-5PM PST"
+    website: "breville.com/support"
+    
+  local_repair:
+    name: "TBD - Find local coffee equipment repair"
+    phone: "TBD"
+    notes: "Research local options for Breville service"
+
+# Upgrade Considerations
+upgrade_wishlist:
+  precision_scale:
+    item: "Digital Coffee Scale"
+    priority: "medium"
+    estimated_cost: 200.00
+    benefit: "More consistent dosing"
+    
+  better_tamper:
+    item: "Weighted Tamper"
+    priority: "low"
+    estimated_cost: 60.00
+    benefit: "More consistent tamping pressure"
+    
+  precision_baskets:
+    item: "VST Precision Baskets"
+    priority: "low"
+    estimated_cost: 45.00
+    benefit: "More even extraction"
+
+# Notes and Observations
+notes:
+  - "All-in-one design simplifies maintenance but limits upgrade options"
+  - "Integrated grinder convenient but may need more frequent cleaning"
+  - "Consider backup portafilter for high-usage periods"
+  - "Monitor integrated grinder performance over time"
+  - "Steam wand requires more attention due to manual operation"
+  - "Machine takes longer to heat up than Bambino Plus"
